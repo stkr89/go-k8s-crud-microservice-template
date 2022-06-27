@@ -18,7 +18,7 @@ spec:
           image: stkr89/go-k8s-crud-microservice-template:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 9001
           envFrom:
             - secretRef:
                 name: go-k8s-crud-microservice-template
